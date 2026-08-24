@@ -1,0 +1,32 @@
+# ==============================
+# Healthcare FWA Analytics
+# ==============================
+
+# Large raw/processed datasets
+data/*.csv
+data/processed/*.csv
+
+# Keep small project documentation/structure, but not large data files
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Power BI temporary/backup files
+*.pbit
+*.tmp
+
+# Local environment
+.env
+.venv/
+venv/
